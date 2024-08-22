@@ -1,0 +1,39 @@
+i>h6
+{
+    font-size:medium;
+    font-style: normal;
+    font-weight: bold;
+}
+div[className='d-flex card p-2 m-2 pb-5']
+{
+    position: relative;
+}
+div.card
+{
+    width:40%;
+    border: none;
+    box-shadow:0 0 20px rgb(185,215,255,0.4);
+    height: 12rem;
+    font-weight: bold;
+    font-size: small;
+}
+div.card  button
+{
+    border: 2px solid rgb(10, 10, 10,0.1);
+    color: rgb(10, 10, 10,0.4);
+    font-weight: bold;
+    background-color: #fff;
+    width: 9rem;
+}
+#cross button
+{
+    
+    width: unset;
+}
+#cross
+{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    top: 1;
+}

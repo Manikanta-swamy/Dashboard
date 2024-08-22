@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system,"poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #a4cbff;
+}
+body::-webkit-scrollbar-thumb
+{
+  background-color: #559fff;
+  border-radius: 50px;
+}
+code 
+{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

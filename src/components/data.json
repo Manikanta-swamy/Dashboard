@@ -1,0 +1,113 @@
+{
+    "dashboard": {
+      "categories": [
+        {
+          "categoryId": "c1",
+          "categoryName": "CSPM Executive Dashboard",
+          "widgets": [
+            {
+              "widgetId": "w1",
+              "widgetName": "Cloud Accounts",
+              "data": {
+                "type": "doughnut",
+                "labels": ["Connected(2)", "Not Connected(2)"],
+                "datasets": [
+                  {
+                    "data": [2, 2],
+                    "backgroundColor": ["#5578FF", "#E1EBFF"]
+                  }
+                ]
+              }
+            },
+
+            {
+              "widgetId": "w2",
+              "widgetName": "Cloud Account Risk Assessment",
+              "data": {
+                "type": "doughnut",
+                "labels": ["Failed(1689)", "Warning(681)", "Not available(150)", "Passed(7253)"],
+                "datasets": [
+                  {
+                    "data": [1689, 681, 150, 7253],
+                    "backgroundColor": ["#B9140F", "#FAD732", "#C8CDDC", "#19A55A"]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "categoryId": "c2",
+          "categoryName": "CWPP Dashboard",
+          "widgets": [
+            {
+              "widgetId": "w3",
+              "widgetName": "Top 5 Namespace Specific Alerts",
+              "widgetText": "No Graph data available!",
+              "data": {
+                "type": "bar",
+                "labels": [],
+                "datasets": [
+                  {
+                    "data": [],
+                    "backgroundColor": []
+                  }
+                ]
+              }
+            },
+            {
+              "widgetId": "w4",
+              "widgetName": "Workload Alerts",
+              "widgetText": "No Graph data available!",
+              "data": {
+                "type": "bar",
+                "labels": [],
+                "datasets": [
+                  {
+                    "data": [],
+                    "backgroundColor": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "categoryId": "c3",
+          "categoryName": "Registry Scan",
+          "widgets": [
+            {
+              "widgetId": "w5",
+              "widgetName": "Image Risk Assessment",
+              "widgetText": "1470 Total Vulnerabilities",
+              "data": {
+                "type": "bar",
+                "labels": ["Critical", "High"],
+                "datasets": [
+                  {
+                    "data": [9, 150],
+                    "backgroundColor": ["#FF6384", "#FFCD56"]
+                  }
+                ]
+              }
+            },
+            {
+              "widgetId": "w6",
+              "widgetName": "Image Security Issues",
+              "data": {
+                "type": "bar",
+                "labels": ["Critical", "High"],
+                "datasets": [
+                  {
+                    "data": [2, 2],
+                    "backgroundColor": ["#FF6384", "#FFCD56"]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
